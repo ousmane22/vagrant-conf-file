@@ -14,7 +14,7 @@ Port forwarding : Le port 80 de la machine virtuelle est redirigé vers le port 
 Réseau privé : La VM est configurée avec une adresse IP privée 192.168.33.10.
 
 3. Synchronisation de Dossiers
-Dossier synchronisé : Le dossier ./web sur la machine hôte est synchronisé avec /var/www/html sur la VM. Cela permet de partager des fichiers entre l'hôte et la VM, ce qui est utile pour le développement web.
+Dossier synchronisé : Le dossier ./web sur la machine hôte est synchronisé avec /var/www/html sur la VM => permet de partager des fichiers entre l'hôte et la VM
 
 4. Configuration du Fournisseur (VirtualBox)
 Interface graphique désactivée : vb.gui = false
